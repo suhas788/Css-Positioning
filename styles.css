@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image:url("https://images4.alphacoders.com/113/1134176.jpg");
+  background-size:100% 100%;
+  background-origin: content-box;
+}
+.ben10{
+  position: static;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 20px;
+  padding-right: 10%;*/
+  padding-left: 10%; 
+  /* padding: 10px; */
+  background-color:antiquewhite;
+}
+.logo{
+  position: static;
+  color:rgb(30, 187, 9);
+  font-size: 30px;
+  font-family: 'Black Ops One', cursive;
+}
+span{
+  position: relative;
+  color: rgb(23, 24, 23);
+  font-family: 'Black Ops One', cursive;
+}
+nav ul li{
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px;
+  font-family: 'Handjet', cursive;
+  font-size: 25px;
+}
+nav ul li a{
+  color:rgb(34, 13, 13);
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Handjet', cursive;
+}
+nav ul li a:hover{
+  color:rgb(13, 225, 41);
+  transition: 800ms;
+  font-family: 'Handjet', cursive;
+}
+button{
+  border:none;
+  background: rgb(51, 255, 0);
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 500ms;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+button:hover{
+  transform: scale(1.11);
+  cursor: cell;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+button a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
